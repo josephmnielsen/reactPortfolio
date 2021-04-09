@@ -1,6 +1,13 @@
+import Navbar from '../../components/navbar'
+import About from '../../components/about'
+import '../../components/images/zurich.JPG'
+
 const Home = () => {
   return (
-    <h1>This is the home page</h1>
+    <>
+    <Navbar />
+    <About />
+    </>
   )
 }
 
