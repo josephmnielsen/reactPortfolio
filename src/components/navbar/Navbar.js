@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link className="navbar-brand header1" to='/'><img src={logo} className="mainImg" alt="logo" /></Link>
           <ul className="nav justify-content-end nav2">
             <li className="nav-item nav2">
-              <Link className="nav-link nav2" to='/'><u>About</u></Link>
+              <Link className="nav-link nav2" to='/'>About</Link>
             </li>
             <li>
               <Link className="nav-link nav2" to='/resume'>Resume</Link>
@@ -27,9 +27,9 @@ const Navbar = () => {
               <Link className="nav-link nav2" to='/contact'>Contact</Link>
             </li>
             <li>
-              <Link href="https://github.com/josephmnielsen" target="_blank"><img src={github} className="smIcons" alt="github" /></Link>
-                <Link href={"https://www.instagram.com/josephmnielsen/"} target="_blank"><img src={instagram}className="smIcons" alt="instagram" /></Link>
-                  <Link href="https://www.linkedin.com/in/josephmnielsen/" target="_blank"><img src={linkedin} className="smIcons" alt="linked-in" /></Link>
+            <a href='https://github.com/josephmnielsen' target="_blank" rel="noreferrer"><img src={github} className="smIcons" alt="github" /></a>
+            <a href='https://www.instagram.com/josephmnielsen/' target="_blank" rel="noreferrer"><img src={instagram}className="smIcons" alt="instagram" /></a>
+            <a href='https://www.linkedin.com/in/josephmnielsen/' target="_blank" rel="noreferrer"><img src={linkedin} className="smIcons" alt="linked-in" /></a>
           </li>
         </ul>
       </div>

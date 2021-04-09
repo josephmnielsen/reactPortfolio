@@ -13,6 +13,8 @@ body {
 
 .onPage {
   color: #F68338;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .nav2 {
@@ -96,6 +98,10 @@ ul {
   transition: opacity 0.5s;
 }
 
+.description {
+  color: rgb(255, 255, 255);
+}
+
 .overlay>* {
   transform: translateY(30px);
   transition: transform 0.5s;
@@ -165,7 +171,6 @@ ul {
   box-shadow: 11px 7px 16px #eeeeee;
   border: 0;
   text-align: left;
-  width: 600px;
 }
 
 .ctag {
@@ -184,6 +189,11 @@ ul {
 nav ul li a:hover {
   color: #F68338;
   text-decoration: underline;
+}
+
+.about {
+  padding: 20px;
+  font-size: 15px;
 }
 
 .container {
