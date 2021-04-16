@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.74123ff3.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.0652fa06.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.0652fa06.chunk.js.map",
+    "runtime-main.js": "/reactportfolio/static/js/runtime-main.eb84c246.js",
+    "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.eb84c246.js.map",
+    "static/js/2.c38eed2c.chunk.js": "/reactportfolio/static/js/2.c38eed2c.chunk.js",
+    "static/js/2.c38eed2c.chunk.js.map": "/reactportfolio/static/js/2.c38eed2c.chunk.js.map",
+    "index.html": "/reactportfolio/index.html",
+    "static/css/main.74123ff3.chunk.css.map": "/reactportfolio/static/css/main.74123ff3.chunk.css.map",
+    "static/js/2.c38eed2c.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.c38eed2c.chunk.js.LICENSE.txt",
+    "static/media/covidResource.670288af.png": "/reactportfolio/static/media/covidResource.670288af.png",
+    "static/media/finalLogo.541fcff1.png": "/reactportfolio/static/media/finalLogo.541fcff1.png",
+    "static/media/ssFreeMarket.dbf0a3dc.png": "/reactportfolio/static/media/ssFreeMarket.dbf0a3dc.png",
+    "static/media/weatherSS.9d8b938b.png": "/reactportfolio/static/media/weatherSS.9d8b938b.png",
+    "static/media/Styling.css": "/reactportfolio/static/media/zurich.54487c0f.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb84c246.js",
+    "static/js/2.c38eed2c.chunk.js",
+    "static/css/main.74123ff3.chunk.css",
+    "static/js/main.0652fa06.chunk.js"
+  ]
+}
