@@ -156,6 +156,10 @@ ul {
   }
 }
 
+.main {
+  margin-left: 300px
+}
+
 .card {
   margin: 6px;
 }

@@ -33,7 +33,7 @@ ul {
 }
 
 .contact {
-  margin-left: 500px;
+  margin-left: 400px;
 }
 
 @media screen and (max-width: 375px) {
@@ -78,6 +78,9 @@ ul {
   }
   .social {
     flex-direction: column;
+  }
+  .contact {
+    margin-top: 100px;
   }
 }
 
