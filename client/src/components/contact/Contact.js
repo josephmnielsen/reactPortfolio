@@ -1,29 +1,56 @@
-
+import { useState } from 'react'
+import Data from '../../utils'
 import './Styling.css'
+
+
+
 const Contact = () => {
+  
+  const [contactDataState, setContactDataState] = useState({
+    name: '',
+    email: '',
+    message: ''
+  })
+  
+  const handleInputChange = ({ target }) => {
+    setContactDataState({ ...contactDataState, [target.name]: target.value })
+  }
+  
+  const handleSubmit = contactData => {
+    Data.addData(contactData)
+    .then(() => {
+      setContactDataState({ ...contactDataState, contactData })
+    })
+  }
+
+
   return (
     <div className="container">
       <div className="contact">
         <div className="row">
           <h6>Get in touch</h6>
           <h1>CONTACT</h1>
-          <form>
+          <form
+         >
             <section className="styling ctag">
               <div className="form-group">
-                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="name" />
+                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="name" handleChange={handleInputChange} value={contactDataState.name} />
               </div>
             </section>
             <section className="styling ctag">
               <div className="form-group">
-                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="email" />
+                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="email" handleChange={handleInputChange} value={contactDataState.email} />
               </div>
             </section>
             <section className="styling ctag">
               <div className="form-group">
-                <textarea className="form-control" rows="3" placeholder="message"></textarea>
+                <textarea className="form-control" rows="3" placeholder="message" handleChange={handleInputChange} value={contactDataState.message}></textarea>
               </div>
             </section>
-          <button className="btn submit">Submit</button>
+            <button className="btn submit" onClick={(contactData) => handleSubmit(contactData)}
+          >
+            Submit
+          </button>
           </form>
         </div>
         <div className="row social">
