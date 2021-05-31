@@ -1,10 +1,10 @@
 import {
   Link
 } from 'react-router-dom'
-import logo from '../../components/images/finalLogo.png'
-import github from '../../components/images/github.jpeg'
-import instagram from '../../components/images/instagram.png'
-import linkedin from '../../components/images/linkedin.png'
+import logo from '../images/finalLogo.png'
+import github from '../images/github.jpeg'
+import instagram from '../images/instagram.png'
+import linkedin from '../images/linkedin.png'
 import './Styling.css'
 
 

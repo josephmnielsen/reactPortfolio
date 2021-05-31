@@ -1,5 +1,5 @@
 import './Timeline.css'
-import '../../components/css/Styling.css'
+import '../css/Styling.css'
 
 const Timeline = () => {
   return (

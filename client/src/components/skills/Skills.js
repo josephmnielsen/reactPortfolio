@@ -1,5 +1,5 @@
 import './Skills.css'
-import '../../components/css/Styling.css'
+import '../css/Styling.css'
 
 const Skills = () => {
   return (
