@@ -9,7 +9,8 @@ const Contact = () => {
   const [contactDataState, setContactDataState] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
+    contactData: []
   })
   
   const handleInputChange = ({ target }) => {
@@ -31,23 +32,43 @@ const Contact = () => {
           <h6>Get in touch</h6>
           <h1>CONTACT</h1>
           <form
+          onSubmit={handleSubmit}
          >
             <section className="styling ctag">
               <div className="form-group">
-                <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="name" handleChange={handleInputChange} value={contactDataState.name} />
+                <input 
+                type="text" 
+                className="form-control" 
+                id="exampleFormControlInput1" 
+                placeholder="name" 
+                value={contactDataState.name} 
+                handleChange={handleInputChange} />
               </div>
             </section>
             <section className="styling ctag">
               <div className="form-group">
-                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="email" handleChange={handleInputChange} value={contactDataState.email} />
+                <input 
+                type="email" 
+                className="form-control" 
+                id="exampleFormControlInput1" 
+                placeholder="email" 
+                handleChange={handleInputChange} 
+                value={contactDataState.email} />
               </div>
             </section>
             <section className="styling ctag">
               <div className="form-group">
-                <textarea className="form-control" rows="3" placeholder="message" handleChange={handleInputChange} value={contactDataState.message}></textarea>
+                <textarea 
+                className="form-control" 
+                rows="3" 
+                placeholder="message" 
+                handleChange={handleInputChange} 
+                value={contactDataState.message} />
               </div>
             </section>
-            <button className="btn submit" onClick={(contactData) => handleSubmit(contactData)}
+            <button 
+            className="btn submit" 
+            onClick={handleSubmit}
           >
             Submit
           </button>

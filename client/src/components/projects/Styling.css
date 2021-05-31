@@ -90,6 +90,7 @@ ul {
   height: 100%;
   background: #F68338;
   color: black;
+  text-decoration: strong;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,6 +101,7 @@ ul {
 
 .description {
   color: black;
+  margin-top: 10px;
 }
 
 .overlay>* {
