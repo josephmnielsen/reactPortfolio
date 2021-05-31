@@ -89,7 +89,7 @@ ul {
   width: 100%;
   height: 100%;
   background: #F68338;
-  color: rgb(255, 255, 255);
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +99,7 @@ ul {
 }
 
 .description {
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 .overlay>* {
