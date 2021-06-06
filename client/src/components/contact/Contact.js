@@ -10,18 +10,18 @@ const Contact = () => {
     name: '',
     email: '',
     message: '',
-    contactData: []
   })
   
   const handleInputChange = ({ target }) => {
     setContactDataState({ ...contactDataState, [target.name]: target.value })
   }
   
-  const handleSubmit = contactData => {
-    Data.addData(contactData)
-    .then(() => {
-      setContactDataState({ ...contactDataState, contactData })
-    })
+  const handleSubmit = (event) => {
+    event.preventDefault()
+    Data.addData({event})
+    // .then((data) => {
+    //   setContactDataState({ ...contactDataState, data })
+    // })
   }
 
 
@@ -32,7 +32,11 @@ const Contact = () => {
           <h6>Get in touch</h6>
           <h1>CONTACT</h1>
           <form
-          onSubmit={handleSubmit}
+            onSubmit={() => handleSubmit({
+              name: contactDataState.name,
+              email: contactDataState.email,
+              message: contactDataState.message
+            })}
          >
             <section className="styling ctag">
               <div className="form-group">
@@ -41,7 +45,7 @@ const Contact = () => {
                 className="form-control" 
                 id="exampleFormControlInput1" 
                 placeholder="name" 
-                value={contactDataState.name} 
+                // value={contactDataState.name} 
                 handleChange={handleInputChange} />
               </div>
             </section>
@@ -53,7 +57,8 @@ const Contact = () => {
                 id="exampleFormControlInput1" 
                 placeholder="email" 
                 handleChange={handleInputChange} 
-                value={contactDataState.email} />
+                // value={contactDataState.email} 
+                />
               </div>
             </section>
             <section className="styling ctag">
@@ -63,12 +68,17 @@ const Contact = () => {
                 rows="3" 
                 placeholder="message" 
                 handleChange={handleInputChange} 
-                value={contactDataState.message} />
+                // value={contactDataState.message} 
+                />
               </div>
             </section>
             <button 
             className="btn submit" 
-            onClick={handleSubmit}
+            onClick={() => handleSubmit({
+              name: contactDataState.name,
+              email: contactDataState.email,
+              message: contactDataState.message
+            })}
           >
             Submit
           </button>
