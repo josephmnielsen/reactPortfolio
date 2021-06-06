@@ -12,7 +12,7 @@ const Projects = () => {
     <div className="row">
       <div className="col-sm-5 sideLeft"></div>
       <div className="col-sm-7 cardStart">
-        <h6>Take a look at</h6>
+        <h6>Have a look at</h6>
         <h1>PROJECTS</h1>
         <div className="image">
           <img src="./images/re-instagram.png" className="pImages" alt="feedMe" />
