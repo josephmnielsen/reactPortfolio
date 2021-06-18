@@ -11,7 +11,7 @@ const Timeline = () => {
         <ul>
           <li>
             <div className="timeline-content">
-              <a href="https://drive.google.com/file/d/1BrQH1hlZD_s-ZQkYPkvJCP_MsALMECaz/view?usp=sharing" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1bshlOC2gmp_b5XAAllqIoTKGb91sIcsT/view?usp=sharing" target="_blank" rel="noreferrer">
               <h3 className="date">April 2021</h3>
               <h2>UCI Full Stack Coding Bootcamp</h2>
               <p>Proficient in: Html, CSS, Javascript, JQuery, APIs, Node, MySQL, Mongo, and React.</p>
@@ -20,7 +20,7 @@ const Timeline = () => {
           </li>
           <li>
             <div className="timeline-content">
-              <a href="https://drive.google.com/file/d/1BrQH1hlZD_s-ZQkYPkvJCP_MsALMECaz/view?usp=sharing" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1bshlOC2gmp_b5XAAllqIoTKGb91sIcsT/view?usp=sharing" target="_blank" rel="noreferrer">
               <h3 className="date">2017-2020</h3>
               <h2>General Manager</h2>
               <p>Ortica</p>
@@ -30,7 +30,7 @@ const Timeline = () => {
           </li>
           <li>
             <div className="timeline-content">
-              <a href="https://drive.google.com/file/d/1BrQH1hlZD_s-ZQkYPkvJCP_MsALMECaz/view?usp=sharing" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1bshlOC2gmp_b5XAAllqIoTKGb91sIcsT/view?usp=sharing" target="_blank" rel="noreferrer">
               <h3 className="date">December 2020</h3>
               <h2>Associate of Arts</h2>
               <p>Santiago Canyon College</p>
@@ -39,7 +39,7 @@ const Timeline = () => {
           </li>
           <li>
             <div className="timeline-content">
-              <a href="https://drive.google.com/file/d/1BrQH1hlZD_s-ZQkYPkvJCP_MsALMECaz/view?usp=sharing" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1bshlOC2gmp_b5XAAllqIoTKGb91sIcsT/view?usp=sharing" target="_blank" rel="noreferrer">
               <h3 className="date">2010-2016</h3>
               <h2>Assistant General Manager</h2>
               <p>Pizza Antica</p>
@@ -49,7 +49,7 @@ const Timeline = () => {
           </li>
           <li>
             <div className="timeline-content">
-              <a href="https://drive.google.com/file/d/1BrQH1hlZD_s-ZQkYPkvJCP_MsALMECaz/view?usp=sharing" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1bshlOC2gmp_b5XAAllqIoTKGb91sIcsT/view?usp=sharing" target="_blank" rel="noreferrer">
               <h3 className="date">2004-2006</h3>
               <h2>Diplome de Cuisine</h2>
               <p>Le Cordon Bleu</p>
